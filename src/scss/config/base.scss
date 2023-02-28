@@ -1,0 +1,150 @@
+.container{
+  margin: 0 20px;
+}
+
+.button{
+  width: 100%;
+  max-width: 230px;
+  height: 55px;
+
+  background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+  box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
+  border-radius: 90px;
+  margin: 10px auto;
+
+
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 118.2%;
+  /* identical to box height, or 13px */
+
+  text-align: center;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  color: $whiteColor;
+}
+.title{
+  font-family: ALSSchlangesans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 103%;
+  color: $blueColor;
+
+  text-align: center;
+}
+.paragraph{
+  margin-top: 20px;
+
+  font-family: GothamPro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 165.2%;
+  color: $blueColor;
+
+  text-align: center;
+}
+.writeToUs {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 17px;
+.writeToUs__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span{
+    margin-right: 5px;
+    color:$silverColor;
+   
+  }
+  a{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+
+}
+.burger{
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+  box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
+  border-radius: 90px;
+  span{
+    position: relative;
+
+    width: 16px;
+    height: 2px;
+    background-color: $whiteColor;
+
+  }
+  span::before,
+  span::after {
+    content: '';
+    position: absolute;
+
+    background-color: $whiteColor;
+    width: 16px;
+    height: 2px;
+    margin-bottom: 4px;
+  }
+  span::after{
+    top: 4px;
+    left: 0;
+  }
+  span::before{
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+.learning{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 50px;
+  padding: 30px 20px 17px 20px;
+
+  background-color: #EFF2FD;
+  border-radius: 25px;
+  h3{
+    font-family: $fontM1;
+    font-size: 20px;
+    line-height: 103.2%;
+
+  padding-top: 30px;
+    text-align: center;
+    color: $blueColor;
+  }
+  p{
+    font-family:$fontM1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+    color: $blueColor;
+    margin: 20px;
+    text-align: center;
+  }
+  .suit__children{
+    margin: 15px auto;
+    max-width: 86px;
+    height: 129px;
+  }
+  .learning__writeToUs{
+    margin-right: 0;
+  }
+}
